@@ -1,0 +1,71 @@
+/* PAGINA INCIAL*/
+
+.cabecalho{
+ display: flex;
+ margin: auto;
+ flex-direction: column;
+ align-items: center;
+ gap: 10px;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#SingUp{
+    text-decoration: none;
+    color: black;
+}
+
+.rodape{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+/* pagina cadastro sexo*/
+
+.cabecalhoCadastros{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#Skip{
+    color:#E94057;
+    text-decoration: none;
+    
+}
+
+.botaoPrincipal{
+    background-color: #E94057;
+    color:white;
+    height: 56px;
+    width: 295px;
+    left: 40px;
+    border-radius: 15px;
+}
+
+.BotoesGostos{
+    height: 45px;
+    width: 140px;
+    left: 40px;
+    background-color: white;
+    border-radius: [object Object]px;
+    border-radius: 10px;
+    border:2px solid #E8E6EA;
+}
+
+.BotoesGostos:hover{
+    cursor: pointer;
+    background-color: #E94057;
+    color: white;
+}
