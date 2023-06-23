@@ -25,11 +25,18 @@ constructor(){
          }, 
          niver: {
             controller: new controllerCadastroNiver()
+         },
+         carrocel:{
+            controller: new controllerCarrocel()
          }
         
 
     }
 
+}
+
+irParaCarrocel(){
+    this.irPara(this.rotas.carrocel)
 }
 
 irParaPaginaInicial(){

@@ -69,3 +69,47 @@
     background-color: #E94057;
     color: white;
 }
+
+.container{
+    width: 280px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+.botaoCarrocel{
+    display:inline-block;
+    background-color: #E94057;
+    padding: 5px;
+    border-radius: 100%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.textoCarrocel h5{
+    display: flex;
+    color: #E94057;
+    font-weight: 300px;
+    justify-content: center;
+}
+.textoCarrocel p{
+    display: flex;
+    color: #323755;
+    text-align: center;
+}
+
+.botaoPrincipalCarrocel{
+    display: flex;
+    background-color: #E94057;
+    justify-content: center;
+    color:white;
+    height: 56px;
+    width: 260px;
+    padding: 20px;
+   
+    border-radius: 15px;
+    border: none;
+}
+.carroselRodaPe p{
+    display: flex;
+    color: #323755;
+    text-align: center;
+}

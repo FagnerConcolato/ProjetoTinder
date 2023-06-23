@@ -6,8 +6,7 @@ const UserSchema = new mongoose.Schema({
     SeuAniversario:'String',
     GeneroSexual:'String',
     senha:'String',
-    interesses: {type: ['String']}
-    
+    interesses: ['String']
 })
 
 

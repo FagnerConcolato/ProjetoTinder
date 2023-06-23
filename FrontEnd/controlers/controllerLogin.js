@@ -30,7 +30,7 @@ async fazerLogin(){
    } 
       // verificando se o email existe n0 banco de dados
   let respostaEmail = await fetch('http://localhost:3000/fazer-login',{
-   method: 'POST',
+     method: 'POST',
      headers: {"Content-Type":'application/json'},
      body:JSON.stringify(bodyData)
   })
