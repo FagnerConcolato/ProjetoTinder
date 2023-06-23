@@ -12,7 +12,7 @@ bind(){
      new navegacao().irParaSelecioneSexo()
     })                             
      document.querySelector(".botaoPrincipal").addEventListener('click', ()=>{
-     new navegacao().irParaLogin() // pq caralhos nao aceita o id do botao
+     new navegacao().irParaLogin() // pq caralhos nao aceita o id do botao?
                 
       })
        
