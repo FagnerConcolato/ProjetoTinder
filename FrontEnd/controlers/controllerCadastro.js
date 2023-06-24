@@ -14,7 +14,10 @@ bind(){
         //new navegacao().irParaSelecioneSexo()
         this.CriarUsuario()
         new navegacao().irParaSelecionaGostos()
-        
+    })
+
+    document.querySelector('#botaovoltarCadastro').addEventListener('click',()=>{
+      new navegacao().irParaSelecioneSexo()
     })
 }
 

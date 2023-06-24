@@ -192,6 +192,115 @@
     margin-top: 50px;
 }
 
+/* ----------------------------pagina cadastro------------------------- */
+
+.cabecalhoCadastros{
+    display: flex;
+    margin-top: 50px;
+    padding-inline:50px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cabecalhoCadastros button{
+    border: none;
+    appearance: none;
+    margin-right: 150px;
+
+}
+
+.ConteudoCadastro input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 295px;
+}
+
+.ConteudoCadastro button{
+    display: block;
+    margin-top: 10px;
+    width: 295px;
+}
+
+.rodapeCadastro a{
+    display: inline;
+    text-decoration: none;
+    color: #E94057;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*--------------------- pagina gostos ------------------------------*/
+
+.cabecalhoGostos {
+    
+    display: flex;
+    margin-top: 50px;
+    padding-inline:70px;
+    align-items: center;
+}
+
+.cabecalhoGostos button{
+    border: none;
+    appearance: none;
+    margin-right: 150px;
+}
+
+
+.conteudoGostos {
+    display: inline-block;
+    margin-top: 10px;
+    width: 300px;
+    
+}
+.conteudoGostosBotoes{
+    display: inline-block;
+    width: 300px; 
+}
+
+.rodapeGostos button{
+    margin-top: 10px;
+}
+/* ------------------------------pagina home --------------------*/
+
+.cabecalhoHome{
+    display:flex;
+    margin-top: 10px;
+    padding-inline:70px;
+     align-items: center; 
+    
+}
+.cabecalhoHome h3{
+  margin-right: 40px;
+}
+.cabecalhoHome button{
+    border: none;
+    appearance: none;
+    margin-right: 40px;
+}
+.rodapeHome button{
+    display: inline;
+    width: 50px;
+     height: 50px;
+     border: none;
+     appearance: none;
+}
+
+#botaoRodape1{
+    display: block;
+    margin-right: 300px;
+    height: 0px;
+    width: 0px;
+    
+}
+.ConteudoHome{
+    height: 430px;
+}
+#botaoRodape2{
+    display: block;
+    margin-top: 120px;
+    margin-right: 300px;
+}
 
 /* classe conteiner do bootstrap */
 .container{

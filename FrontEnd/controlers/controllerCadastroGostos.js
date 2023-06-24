@@ -16,8 +16,11 @@ class controllerCadastroGostos {
     document.querySelectorAll('.BotoesGostos').forEach((botao)=>{
         botao.addEventListener('click',()=>{
             botao.classList.toggle('selecionado') //toggle alternar
-        })
-       
+        }) 
+     })
+
+     document.querySelector('#botaovoltarGostos').addEventListener('click',()=>{
+      new navegacao().irParaCadastro()
      })
   }
 
