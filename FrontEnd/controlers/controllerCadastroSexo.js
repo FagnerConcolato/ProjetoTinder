@@ -21,6 +21,10 @@ bind(){
             botao.classList.add('selecionado')
           })
       })
+
+      document.querySelector('#VoltarTelaInicial').addEventListener('click',()=>{
+        new navegacao().irParaPaginaInicial()
+      })
 }
 
 // criar uma função para pegar os dados do sexo 

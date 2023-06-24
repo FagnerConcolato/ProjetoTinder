@@ -12,9 +12,10 @@ bind(){
 //    new navegacao().irParaCadastro()
    //})
    document.querySelector('.botaoLogin').addEventListener('click', ()=>{
-      this.fazerLogin()
- 
-      
+      this.fazerLogin() 
+  })
+  document.querySelector('#BotaoVoltarlogin').addEventListener('click',()=>{
+   new navegacao().irParaPaginaInicial()
   })
 
 }

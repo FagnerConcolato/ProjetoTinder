@@ -60,18 +60,38 @@
 
 /* pagina cadastro sexo*/
 
-.cabecalhoCadastros{
+.cabecalhoCadastroSexo{
     display: flex;
-    margin: auto;
-    flex-direction: column;
+    margin-top: 50px;
+    padding-inline:50px;
     align-items: center;
-    gap: 10px;
 }
 
+.cabecalhoCadastroSexo button{
+     border: none;
+     appearance: none;
+     margin-right: 150px;
+}
 #Skip{
     color:#E94057;
     text-decoration: none;
     
+}
+
+.SexoBotao {
+    background-color: white;
+    color:black;
+    height: 56px;
+    width: 295px;
+    left: 40px;
+    border-radius: 15px;
+    border: 1px solid#E8E6EA;
+
+}
+.SexoBotao:hover{
+    background-color: #E94057;
+    color:white
+
 }
 
 .botaoPrincipal{
@@ -84,6 +104,23 @@
     border: none;
 }
 
+.ConteudoCadastroSexo{
+    margin-top: 50px;
+}
+.ConteudoCadastroSexo button{
+    display: block;
+    margin-top: 10px;
+}
+
+.rodapeCadastroSexo{
+    margin-top: 50px;
+}
+
+
+.SexoBotao{
+    gap: 10px;
+}
+/********************* pagina gostos **************/
 .BotoesGostos{
     height: 45px;
     width: 140px;
@@ -100,6 +137,62 @@
     color: white;
     border: none;
 }
+
+/* --------------------Pagina login------------------ */
+
+
+.cabecalhoPaginaLogin{
+    display: flex;
+    margin-top: 50px;
+    padding-inline:70px;
+    align-items: center;
+
+}
+.cabecalhoPaginaLogin button{
+    border: none;
+    appearance: none;
+    margin-right: 150px;
+
+}
+
+.CamposPaginaLogin{
+    margin-top: 80px;
+}
+.CamposPaginaLogin input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 295px;
+   
+}
+.CamposPaginaLogin h3{
+    margin-bottom: 40px;
+}
+
+.botaoLogin{
+    margin-top: 30px;
+    background-color: #E94057;
+    color:white;
+    height: 56px;
+    width: 295px;
+    left: 40px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.rodapeLogin a{
+    display: inline;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #E94057;
+    text-align: center;
+    padding: 20px;
+}
+.rodapeLogin{
+    margin-top: 50px;
+}
+
+
 /* classe conteiner do bootstrap */
 .container{
     width: 280px;
