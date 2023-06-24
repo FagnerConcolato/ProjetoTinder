@@ -12,7 +12,7 @@ bind(){
   document.querySelector('#continue').addEventListener('click', ()=>{
     this.CriarSexoUsuario()
      new navegacao().irParaCadastro()
-    //new navegacao().irParaSelecionaGostos()
+    
   })
 
       document.querySelectorAll('.SexoBotao').forEach((botao)=>{
@@ -33,27 +33,7 @@ async CriarSexoUsuario(){
 let GeneroSexual= document.querySelector('.selecionado').value
 
 sessionStorage.setItem('GeneroSexual', GeneroSexual)
-// if(!GeneroSexual){
 
-//   alert('coloque um genero Sexual')
-//   return
-// }
-
-//   const bodyData = {
-//      GeneroSexual,  
-//   }
-
-//   await fetch('http://localhost:3000/cadastro-sexo',{
-//     method:'POST',
-//     headers: {'Content-Type': 'application/json',
-//   'token':sessionStorage.getItem('token')},
-//     body:JSON.stringify(bodyData)
-//   }).then(()=>{
-//     new navegacao().irParaCadastro()
-//     console.log('Cadastro do sexo feito com sucesso')
-//   }).catch((err)=>{
-//       console.log('ERRO AO CADASTRAR SEXO', err)
-//   })
 }
 
 removerSelecionado(){

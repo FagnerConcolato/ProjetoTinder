@@ -11,7 +11,6 @@ bind(){
     })
 
     document.querySelector('#irParaSelecioneSexo').addEventListener('click',()=>{
-        //new navegacao().irParaSelecioneSexo()
         this.CriarUsuario()
         new navegacao().irParaSelecionaGostos()
     })

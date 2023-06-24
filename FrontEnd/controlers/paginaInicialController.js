@@ -8,11 +8,11 @@ class paginaInicialController{
 
 bind(){
      document.querySelector("#SingUp").addEventListener('click',()=>{
-     //new navegacao().irParaCadastro()
+     
      new navegacao().irParaSelecioneSexo()
     })                             
      document.querySelector(".botaoPrincipal").addEventListener('click', ()=>{
-     new navegacao().irParaLogin() // pq caralhos nao aceita o id do botao?
+     new navegacao().irParaLogin() // pq nao aceita o id do botao?
                 
       })
        

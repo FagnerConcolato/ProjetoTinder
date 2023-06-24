@@ -1,4 +1,3 @@
-//const { updateMany } = require("../../BackEnd/model/User");
 
 class controllerCadastroGostos {
   init() {
@@ -8,7 +7,7 @@ class controllerCadastroGostos {
   }
   bind() {
     document.querySelector("#continue").addEventListener("click", () => {
-      //new navegacao().irParaSelecionaNiver()
+      
       this.salvarGostos()
       new navegacao().irParaHome();
     });
